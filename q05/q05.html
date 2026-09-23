@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 05</title>
+    <script src="./q05.js" defer></script>
+</head>
+<body>
+    <h1>Questão 05</h1>
+
+    <p>
+        Escreva um programa que calcule o salário de um professor baseado no valor da hora-aula e da quantidade de
+        horas trabalhadas, obtidas a partir do teclado.
+    </p>
+
+    <form id="formDados">
+        <label for="valorhora">Valor da hora-aula:</label>
+        <input type="number" step="0.01" min="0.01" id="valorhora">
+
+        <label for="horastrabalhadas">Horas trabalhadas:</label>
+        <input type="number" min="1" id="horastrabalhadas">
+
+        <button type="submit">Calcular salário</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html>
